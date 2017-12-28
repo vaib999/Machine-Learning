@@ -1,0 +1,88 @@
+car: Iterations:30
+Base learner 	     Vanilla Bagging Boosting
+Logistic             7.639   6.713   6.8866
+Simple Logistic      6.8287  7.581   29.9769
+SMO(Polynomial)      6.25    6.713   5.3819
+balance-scale:
+Base learner         Vanilla Bagging Boosting
+Logistic             10.4    10.88   10.4
+Simple Logistic      12.16   13.6    12.16
+SMO(Polynomial)      12.32   12.96   12.32
+trains:
+Base learner         Vanilla Bagging Boosting
+Logistic             20      40      20
+Simple Logistic      30      40      30
+SMO(Polynomial)      30      30      30
+
+#################################################################
+
+car: Iterations:100
+Base learner 	     Vanilla Bagging Boosting
+Logistic             6.8866  6.7708  6.8866
+Simple Logistic      6.8287  6.8866  6.8287
+SMO(Polynomial)      6.25    6.4236  5.3819
+balance-sale:
+Base learner         Vanilla Bagging Boosting
+Logistic             10.4    10.72   10.4
+Simple Logistic      12.16   13.28   12.16
+SMO(Polynomial)      12.32   13.44   12.32
+trains:
+Base learner         Vanilla Bagging Boosting
+Logistic             20      30      20
+Simple Logistic      30      50      30
+SMO(Polynomial)      30      30      30
+
+###################################################################
+car:Iterations:150
+Base learner         Vanilla Bagging Boosting
+Logistic             6.8866  6.8866  6.8866
+Simple Logistic      6.8287  6.8287  6.8287
+SMO(Polynomial)      6.25    6.4236  5.3819
+balance-scale:
+Base learner         Vanilla Bagging Boosting
+Logistic             10.4    10.24   10.4
+Simple Logistic      12.16   13.76   12.16 
+SMO(Polynomial)      12.3    13.6    12.32
+trains:
+Base learner         Vanilla Bagging Boosting
+Logistic             20      30      20
+Simple Logistic      30      40      30
+SMO(Polynomial)      30      30      30
+
+#######################################################################
+
+Improved by boosting
+
+Iterations 30
+car.arff
+Logistic and SMO(Polynomial) 
+
+Iterations:100
+car.arff
+SMO(Polynomial)
+
+Iterations:150
+car.arff
+SMO(Polynomial)
+
+
+#########################################################################
+
+Improved by Bagging
+
+Iterations:30
+car.arff and Logistic
+
+Iterations:100
+car.arff and Logistic
+
+Iterations:150
+balance-scale.arff and Logistic
+
+#########################################################################
+
+When the result is improved by bagging this means that earlier the algorithm was overfitting but after bagging it is generalizing better.So
+this results into better performance on test data(useen data).
+When the result is improved by boosting this means that the classifier iteratively learns important and relevant features of dataset and 
+gave more importance in classifiying them which resulted into better result.
+cars and trains data are unbiased

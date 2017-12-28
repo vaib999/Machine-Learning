@@ -1,0 +1,298 @@
+Results for Naive Bayes
+
+Accuracy with stopwords: 0.9435146443514645
+
+Accuracy without stopwords: 0.9560669456066946
+
+###################################################################################################
+
+Results for Logistic Regression Algorithm
+
+1
+stemmed
+('lmbda: ', 1)
+('Iterations: ', 100)
+('eta: ', 0.01)
+('', 0.9372384937238494)
+
+Removing Stopwords
+('lmbda: ', 1)
+('Iterations: ', 100)
+('eta: ', 0.01)
+('', 0.9518828451882845)
+
+2
+stemmed
+('lmbda: ', 0)
+('Iterations: ', 100)
+('eta: ', 0.01)
+('stemmed', 0.9330543933054394)
+
+Removing Stopwords
+('lmbda: ', 0)
+('Iterations: ', 100)
+('eta: ', 0.01)
+('stop_stem', 0.9539748953974896)
+
+3
+stemmed
+('lmbda: ', 1)
+('Iterations: ', 100)
+('eta: ', 0.01)
+('stemmed', 0.9372384937238494)
+
+Removing Stopwords
+('lmbda: ', 1)
+('Iterations: ', 100)
+('eta: ', 0.01)
+('stop_stem', 0.9518828451882845)
+
+4
+stemmed
+('lmbda: ', 2)
+('Iterations: ', 100)
+('eta: ', 0.01)
+('stemmed', 0.9393305439330544)
+
+Removing Stopwords
+('lmbda: ', 2)
+('Iterations: ', 100)
+('eta: ', 0.01)
+('stop_stem', 0.9497907949790795)
+
+5
+stemmed
+('lmbda: ', 5)
+('Iterations: ', 100)
+('eta: ', 0.01)
+('stemmed', 0.7824267782426778)
+
+Removing Stopwords
+('lmbda: ', 5)
+('Iterations: ', 100)
+('eta: ', 0.01)
+('stop_stem', 0.9456066945606695)
+
+#########################################################################################
+Results for perceptron algorithm
+
+1
+stemmed
+('Iterations: ', 1)
+('eta: ', 0.1)
+('stemmed', 0.2719665271966527)
+
+Removing Stopwords
+('Iterations: ', 1)
+('eta: ', 0.1)
+('stop_stem', 0.2719665271966527)
+
+2
+stemmed
+('Iterations: ', 2)
+('eta: ', 0.1)
+('stemmed', 0.7280334728033473)
+
+Removing Stopwords
+('Iterations: ', 2)
+('eta: ', 0.1)
+('stop_stem', 0.7280334728033473)
+
+3
+stemmed
+('Iterations: ', 3)
+('eta: ', 0.1)
+('stemmed', 0.7468619246861925)
+
+Removing Stopwords
+('Iterations: ', 3)
+('eta: ', 0.1)
+('stop_stem', 0.7928870292887029)
+
+4
+stemmed
+('Iterations: ', 4)
+('eta: ', 0.1)
+('stemmed', 0.891213389121339)
+
+Removing Stopwords
+('Iterations: ', 4)
+('eta: ', 0.1)
+('stop_stem', 0.895397489539749)
+
+5
+stemmed
+('Iterations: ', 5)
+('eta: ', 0.1)
+('stemmed', 0.8179916317991632)
+
+Removing Stopwords
+('Iterations: ', 5)
+('eta: ', 0.1)
+('stop_stem', 0.9058577405857741)
+
+6
+stemmed
+('Iterations: ', 6)
+('eta: ', 0.1)
+('stemmed', 0.8493723849372385)
+
+Removing Stopwords
+('Iterations: ', 6)
+('eta: ', 0.1)
+('stop_stem', 0.9100418410041841)
+
+7
+stemmed
+('Iterations: ', 7)
+('eta: ', 0.1)
+('stemmed', 0.803347280334728)
+
+Removing Stopwords
+('Iterations: ', 7)
+('eta: ', 0.1)
+('stop_stem', 0.9121338912133892)
+
+8
+stemmed
+('Iterations: ', 8)
+('eta: ', 0.1)
+('stemmed', 0.8619246861924686)
+
+Removing Stopwords
+('Iterations: ', 8)
+('eta: ', 0.1)
+('stop_stem', 0.9121338912133892)
+
+9
+stemmed
+('Iterations: ', 9)
+('eta: ', 0.1)
+('stemmed', 0.8514644351464435)
+
+Removing Stopwords
+('Iterations: ', 9)
+('eta: ', 0.1)
+('stop_stem', 0.9121338912133892)
+
+10
+stemmed
+('Iterations: ', 10)
+('eta: ', 0.1)
+('stemmed', 0.9100418410041841)
+
+Removing Stopwords
+('Iterations: ', 10)
+('eta: ', 0.1)
+('stop_stem', 0.9184100418410042)
+
+11
+stemmed
+('Iterations: ', 10)
+('eta: ', 0.01)
+('stemmed', 0.9100418410041841)
+
+Removing Stopwords
+('Iterations: ', 10)
+('eta: ', 0.01)
+('stop_stem', 0.9163179916317992)
+
+12
+stemmed
+('Iterations: ', 10)
+('eta: ', 1)
+('stemmed', 0.9100418410041841)
+
+Removing Stopwords
+('Iterations: ', 10)
+('eta: ', 1)
+('stop_stem', 0.9184100418410042)
+
+13
+stemmed
+('Iterations: ', 100)
+('eta: ', 0.1)
+('stemmed', 0.9163179916317992)
+
+Removing Stopwords
+('Iterations: ', 100)
+('eta: ', 0.1)
+('stop_stem', 0.9184100418410042)
+
+14
+stemmed
+('Iterations: ', 100)
+('eta: ', 0.01)
+('stemmed', 0.9163179916317992)
+
+Removing Stopwords
+('Iterations: ', 100)
+('eta: ', 0.01)
+('stop_stem', 0.9184100418410042)
+
+15
+stemmed
+('Iterations: ', 100)
+('eta: ', 1)
+('stemmed', 0.9163179916317992)
+
+Removing Stopwords
+('Iterations: ', 100)
+('eta: ', 1)
+('stop_stem', 0.9184100418410042)
+
+16
+stemmed
+('Iterations: ', 500)
+('eta: ', 0.1)
+('stemmed', 0.9163179916317992)
+
+Removing Stopwords
+('Iterations: ', 500)
+('eta: ', 0.1)
+('stop_stem', 0.9184100418410042)
+
+17
+stemmed
+('Iterations: ', 500)
+('eta: ', 0.01)
+('stemmed', 0.9163179916317992)
+
+Removing Stopwords
+('Iterations: ', 500)
+('eta: ', 0.01)
+('stop_stem', 0.9184100418410042)
+
+18
+stemmed
+('Iterations: ', 500)
+('eta: ', 1)
+('stemmed', 0.9163179916317992)
+
+Removing Stopwords
+('Iterations: ', 500)
+('eta: ', 1)
+('stop_stem', 0.9184100418410042)
+
+19
+stemmed
+('Iterations: ', 50)
+('eta: ', 0.05)
+('stemmed', 0.9163179916317992)
+
+Removing Stopwords
+('Iterations: ', 50)
+('eta: ', 0.05)
+('stop_stem', 0.9184100418410042)
+
+20
+stemmed
+('Iterations: ', 50)
+('eta: ', 0.09)
+('stemmed', 0.9121338912133892)
+
+Removing Stopwords
+('Iterations: ', 50)
+('eta: ', 0.09)
+('stop_stem', 0.9184100418410042)
+

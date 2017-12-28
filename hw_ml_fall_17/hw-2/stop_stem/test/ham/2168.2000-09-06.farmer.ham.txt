@@ -1,0 +1,15 @@
+subject:
+intraday
+eastran
+nomin
+chang
+9
+/
+6
+/
+00
+deliveri
+continu
+30
+,
+000

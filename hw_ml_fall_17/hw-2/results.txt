@@ -1,0 +1,3 @@
+Accuracy without stopwords: 0.9435146443514645
+
+Accuracy with stopwords: 0.9560669456066946

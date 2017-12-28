@@ -1,0 +1,8 @@
+subject:
+entex
+-
+may
+assum
+40000
+midcon
+.
